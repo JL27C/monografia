@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="css/styles.css">
+</head>
+ 
+<div>
+  <!---- Barra de navegacion -->
+    <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/img/Colegio-removebg-preview.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Colegio Casa de la Cultura Ecuatoriana
+    </a>
+
+    <!---Boton Hamburger-->
+
+      <button class="navbar-toggler" type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#menuNav"
+    aria-expanded="menuNav"
+    aria-controls="false"
+    aria-label="toggle navigator">
+    <span class="navbar-toggler-icon"></span>
+ 
+    </button>
+    
+<div class="collapse navbar-collapse justify-content-end" id="menuNav">
+    <ul class="navbar-nav">
+
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Biologia</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Quimica</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+  </li>
+</ul>
+</div>
+  </div>
+</nav>
+ 
+<!---Botones-->
+<div class="d-flex gap-2 flex-wrap">
+<button type="button" class="btn btn-success " id="btn-todo">Todas las Ramas</button>
+<button type="button" class="btn btn-danger" id="btn-quimica">Quimica</button>
+<button type="button" class="btn btn-warning"id="btn-biologia">Biologia</button>
+</div>
+ 
+<!--Seccion del API-->
+
+<section class="api-section">
+
+<!---container: Pide un contenedor y alado el nombre-->
+
+<div class="container container-cards" id="contenedor-cards">
+  <img src="/img/Colegio-removebg-preview.png" class="card-img-top "  class="card-img-top" alt="...">
+  <div class="card-body" id="contenedor-cards" >
+    <h5 class="card-title">Introduccion del Proyecto</h5>
+    <p class="card-text">Hola, este es un wireframe de mi proyecto monografico.</p>
+    <button type="button" class="btn chatbot-btn">Ver mas</button>
+  </div>
+</div>
+</section>
+
+<hr class="separador">
+
+<section class="api-section">
+  <h2 >Colores de la paleta</h2>
+
+  <p>
+    <strong>Color Primario:</strong> #010861e0; este es el color primario de la pagina
+  </p>
+
+    <p>
+    <strong>Color Secundario:</strong> #fa9716; este es el color secundario de la pagina
+  </p>
+
+  <p> <strong> Nota:</strong> Los colores pueden ser ajustados o cambiados por el docente</p>
+  <div class="color-samples">
+    <div class="sample primary">Primario</div>
+    <div class="sample secundary">Secundario</div>
+  </div>
+</section>
+
+<section> <!--es donde se dice que hemos hecho en css-->
+  <h2>Tipografia</h2>
+  <p>
+    <strong>Fuente:</strong> Arial, sans-serif; esta es la fuente que se utilizara en la pagina
+  </p>
+</section>
+
+
+<hr class="separador">
+
+<section class="chatbot-section">
+ 
+<!---Cards-->
+<div class=" container chatbot-container">
+
+
+<!--Chatbot-->
+ 
+<div class="card" style="width: 18rem;">
+  <img src="./img/chatbot/saludo1.jpg" class="card-img-top" id="imagenchatbot" alt="imagenchatbot">
+  <div class="card-body">
+    <h5 class="card-title">Chatbot Biologia</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    
+ 
+    <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Respuestas</label>
+  <textarea class="form-control" id="respuesta" rows="3"></textarea>
+</div>
+<a  class="btn chatbot-btn" onclick="decirHola()">Hola</a>
+<a  class="btn chatbot-btn" onclick="comoEstas()">Como estas</a>
+<a  class="btn chatbot-btn"onclick="comoTeSientes()">Como te sientes</a>
+  </div>
+</div>
+</div>
+</section>
+</div>
+ 
+ 
+ 
+<footer class="footer">
+    <p>copyright 2023</p>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+   crossorigin="anonymous"></script>  
+ 
+   <script src="js/app.js"></script>
+   <script src="js/chatbot.js"></script>
+</body>
+</html>
+
+</section>
+
+
