@@ -4,13 +4,13 @@
     {
         "id":"fotosintesis",
         "titulo":"La fotosintesis",
-        "imagen":"../img/biologia/fotosintesis.jpg",
+        "imagen":"image/biologia/fotosintesis.jpg",
         "descripcion":"descripcion del proyecto"
     },
     {
         "id": "molecula",
         "titulo": "La molecula",
-        "imagen": "../img/biologia/molecula.jpg",
+        "imagen": "image/biologia/celula.jpg",
         "descripcion": "descripcion del proyecto"
 
     }
@@ -20,7 +20,7 @@
     {
         "id":"celula",
         "titulo":"La celula",
-        "imagen": "../img/biologia/celula.jpg",
+        "imagen": "image/quimica/molecula.jpg",
         "descripcion": "descripcion del proyecto"
     }
     

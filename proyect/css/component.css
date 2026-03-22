@@ -1,0 +1,165 @@
+
+/* Cartas y botones */
+#btn-todo{
+    background: var(--primary);
+    border:none;
+    
+}
+ 
+#btn-biologia{
+    background: var(--secundary);
+    color:#222;
+    border:none;
+}
+#btn-quimica{
+   background: var(--secundary);
+   color:#222;
+    border:none;
+    
+}
+ 
+button{
+ 
+    margin:1rem 0.3rem;
+}
+.card .btn-primary:hover{
+    background: var(--secundary);
+}
+ 
+.card .btn-primary{
+    background: var(--primary);
+    border: none;
+    width: 100%;
+    margin: 0.3rem 0;
+}
+ 
+.chatbot-btn{
+    background: var(--primary);
+    border: none;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    margin: 0.3rem ;
+    color: white;
+}
+ 
+ 
+ 
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin:2rem auto;
+   
+}
+ 
+.card{
+    width: 18rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-left: 6px solid var(--primary);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+ 
+.card:hover{
+    transform: translateY(-5px);
+}
+ 
+.card.biologia{
+    border-left-color: var(--secundary);
+}
+ 
+.card.quimica{
+    border-left-color: var(--secundary);
+}
+ 
+ 
+ 
+#respuesta{
+    resize: none;
+    font-size: 0.9rem;
+}
+
+.container-cards img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+
+/*CHAT-BOT*/
+/*seccion chatbot*/
+.chatbot-section{
+    margin: 3rem 0;
+    padding: 2rem 1rem;
+}
+ 
+/*contenedor*/
+.chatbot-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+ 
+ 
+ 
+/* TITULO */
+.chatbot-wrapper h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+ 
+/* CAJA DE CHAT */
+.chat-box textarea{
+    width: 100%;
+    height: 120px;
+    resize: none;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+}
+ 
+/* BOTONES */
+.chat-buttons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.chat-buttons button{
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ 
+.chat-buttons button:hover{
+    background: var(--secundary);
+}
+ 
+/* IMAGEN CHATBOT */
+.chat-image{
+    display:flex;
+    justify-content:center;
+    margin-bottom:1rem;
+}
+ 
+.chat-image img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
