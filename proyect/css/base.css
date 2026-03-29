@@ -24,7 +24,12 @@ h1,h2,h3,h5{
     font-family: 'Merriweather', serif;
     color:var(--primary)
 }
- 
+
+h1{
+    text-align:center;
+    margin-bottom: 1.5rem;
+
+}
  
  
 /* NAVBAR ocupa todo el ancho */
@@ -136,4 +141,21 @@ border-radius: 10px;
     height: 200px;
     width: 100%;
     object-fit: cover;
+}
+
+/*Botones de consulta*/
+
+.btn-group-vertical .btn-primary {
+   text-align: left; 
+   justify-content: flex-start;
+   margin: 14px 20px;
+   font-weight: 500;
+   min-height: 56px;
+
+}
+
+.btn-group-vertical .btn-primary:hover {
+    background-color: var(--secundary);
+    color: white;
+    transform: translateX(8px);
 }
