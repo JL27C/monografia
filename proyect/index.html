@@ -13,7 +13,7 @@
      <link rel="stylesheet" href="css/component.css">
 
 </head>
-<body>
+<secctio>
 
    <header>
      <nav class="navbar navbar-expand-lg custom-navbar">
@@ -67,49 +67,59 @@
     diseñados para apoyar el aprendizaje y el desarrollo académico de nuestros estudiantes.
      Desde materiales didácticos hasta actividades interactivas, nuestra monografia es un recurso valioso
      para estudiantes, padres y educadores.
-   ¡Explora, aprende y crece con nosotros en esta emocionante aventura educativa! </p>
-<section class="chatbot-section">
+   ¡Explora, aprende y crece con nosotros en esta 
+   emocionante aventura educativa! </p>
+   </secction>
 
 
-  <!-- TEMAS --->
-    <section>
-      <div class="container-fluid">
-       <div class="row">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-5"> 
-         <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-        <button type="button" class="btn btn-primary">Button</button>
-         <button type="button" class="btn btn-primary">Button</button>
-         <button type="button" class="btn btn-primary">Button</button>
+
+<section class="temas-chatbot-section py-5">
+  <div class="container">
+    <div class="row g-4">
+ 
+ 
+      <div class="col-lg-4">
+        <h4 class="mb-3 text-center text-lg-start">Categorías</h4>
+        <div class="btn-group-vertical w-100" id="category-buttons" role="group">
+        
         </div>
-        </div>
-         </div>
-       </div>
       </div>
-    </section>
 
+
+
+  <div class="col-lg-8">
 <div class="chatbot-wrapper">
-<h1>Chatbot Biologia</h1>
+<h2 id="chatbot-title" class="text-center">Chatbot Biologia</h2>
 
 
 <!--Imagen del Chatbot-->
 
 <div class="chat-image">
-  <img id="imagenchatbot" src="./image/chatbot/saludo1.jpg" alt="chatbot">
+  <img
+   id="imagenchatbot" 
+   src="./image/chatbot/saludo1.jpg"
+   alt="chatbot">
 </div>
 
  <!--Chatbot-->
   <div class="chat-box"> 
-  <textarea id="respuesta" placeholder="Aqui aparecera la respuesta..."></textarea>
+  <textarea
+   id="respuesta"
+    placeholder="Aqui aparecera la respuesta...">
+  </textarea>
   </div>
 
 
   <!--Botones Chat-Bot-->
-<button  class="btn chatbot-btn" onclick="decirHola()">Hola</button>
-<button  class="btn chatbot-btn" onclick="comoEstas()">Como estas</button>
-<button  class="btn chatbot-btn" onclick="comoTeSientes()">Como te sientes</button>
+         <div class="chat-buttons" id="dynamic-buttons">
+    <!--Botones se llaman JS-->
+      </div>
+        </div>
+      </div>
+ 
+    </div>
   </div>
-
-</div>
+</section>
 
 <footer class="footer">
     <p>copyright 2023</p>
