@@ -23,9 +23,10 @@ html,body{
 h1,h2,h3,h5{
     font-family: 'Merriweather', serif;
     color:var(--primary)
+    
 }
 
-h1{
+h1,h3,p{
     text-align:center;
     margin-bottom: 1.5rem;
 
@@ -46,9 +47,30 @@ h1{
     margin:0 auto;
     display:flex;
     align-items:center;
+    justify-content: space-between;
+    position: relative;
 }
  
+.navbar-toggler{
+    position: absolute;
+    right: 10px;
+    top: 20%;
+    transform:  translateY(-50%);
+    z-index: 1000;
+}
  
+@media(max-width:991px){
+    .navbar-collapse{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background: white;
+        border-top: 3px solid var(--primary);
+        padding: 10px;
+        z-index: 1000;
+    }
+}
  
 .navbar-brand img{
     max-width: 100%;
@@ -101,7 +123,6 @@ h1{
     border-bottom:2px solid var(--secundary);
     color:var(--secundary);
 }
- 
  
 /*FOOTER*/
  

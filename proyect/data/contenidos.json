@@ -1,31 +1,505 @@
-
 {
     "biologia": [
-    {
-        "id":"fotosintesis",
-        "titulo":"La fotosintesis",
-        "imagen":"image/biologia/fotosintesis.jpg",
-        "descripcion":"descripcion del proyecto"
+         {
+            "id": "fotosintesis",
+            "titulo": "La fotosíntesis",
+            "imagen": "image/card/fotosintesis.jpg",
+            "descripcion": "Proceso mediante el cual las plantas producen su alimento usando luz solar",
+            "Link": "https://youtu.be/mtGgo68VM54?si=GyI5_t-tVP6Kcuge"
+        },
+        {
+            "id": "celula",
+            "titulo": "La célula",
+            "imagen": "image/card/celula.jpg",
+            "descripcion": "Unidad básica estructural y funcional de los seres vivos",
+            "Link": "https://youtu.be/aoj9oTvVJ8o?si=UrxRl_DokM4kuHzH"
+        },
+        {
+            "id": "adn",
+            "titulo": "El ADN",
+            "imagen": "image/card/adn.jpeg",
+            "descripcion": "Molécula que contiene la información genética de los seres vivos",
+            "Link": "https://youtu.be/dfR486-4ERU?si=9wydfs6DuwY0TdAG"
+        },
+        {
+            "id": "ecosistema",
+            "titulo": "Ecosistemas",
+            "imagen": "image/card/ecosistema.jpg",
+            "descripcion": "Conjunto de seres vivos que interactúan con su entorno",
+            "Link": "https://youtu.be/_U4dv3KwQic?si=nWbophrlYpbJud1r"
+        },
+        {
+            "id": "respiracion",
+            "titulo": "Respiración celular",
+            "imagen": "image/card/respiracion.jpg",
+            "descripcion": "Proceso por el cual las células obtienen energía",
+            "Link": "https://youtu.be/YefwfJ8IpEI?si=qdTepdqnaGUpFbt2"
+        },
+        
+        {
+            "id": "sistema_digestivo",
+            "titulo": "Sistema digestivo",
+            "imagen": "image/card/sistemaD.png",
+            "descripcion": "Procesa los alimentos",
+            "Link": "https://youtu.be/_jbw0FxnaQE?si=rhjde4kB7O2WouH8"
+        },
+        {
+            "id": "sistema_respiratorio",
+            "titulo": "Sistema respiratorio",
+            "imagen": "image/card/respiratorio.jpg",
+            "descripcion": "Intercambio de oxígeno",
+            "Link": "https://youtu.be/tMLFFKof29o?si=KpoMTFeXicmvCp3c"
+        },
+        {
+            "id": "sistema_circulatorio",
+            "titulo": "Sistema circulatorio",
+            "imagen": "image/card/circularorio.webp",
+            "descripcion": "Transporta sangre y nutrientes",
+            "Link": "https://youtu.be/nsSg4Eq3LEo?si=AG2syEH-7W_7pEmh"
+        },
+        {
+            "id": "sistema_nervioso",
+            "titulo": "Sistema nervioso",
+            "imagen": "image/card/nervioso.jpg",
+            "descripcion": "Controla el cuerpo",
+            "Link": "https://youtu.be/lXoLoeSwivI?si=Anh1HTVB5OizzQLA"
+        },
+        {
+            "id": "sistema_oseo",
+            "titulo": "Sistema óseo",
+            "imagen": "image/card/oseo.jpg",
+            "descripcion": "Da soporte al cuerpo",
+            "Link": "https://youtu.be/gpubx6z0550?si=CodmrM88m1kpqNBY"
+        },
+        {
+            "id": "sistema_muscular",
+            "titulo": "Sistema muscular",
+            "imagen": "image/card/muscular.jpg",
+            "descripcion": "Permite el movimiento",
+            "Link": "https://youtu.be/bGvFYRvDjc4?si=8XQP8t9cjdi34J87"
+        },
+        {
+            "id": "aloe_vera",
+            "titulo": "Aloe vera",
+            "imagen": "image/card/aloe.jpg",
+            "descripcion": "Usada para la piel",
+            "Link": ""
+        },
+        {
+            "id": "vertebrados",
+            "titulo": "Animales vertebrados",
+            "imagen": "image/card/vertebrados.jpg",
+            "descripcion": "Tienen columna vertebral",
+            "Link": "https://youtu.be/5Tg0J59MYII?si=FvQNf_MUleyw2dGD"
+        },
+        {
+            "id": "invertebrados",
+            "titulo": "Animales invertebrados",
+            "imagen": "image/card/invertebrados.jpg",
+            "descripcion": "No tienen columna vertebral",
+            "Link": "https://youtu.be/NOpzysr0PJQ?si=OSyU7icepfJgUPrF"
+        },
+        {
+            "id": "mamiferos",
+            "titulo": "Mamíferos",
+            "imagen": "image/card/mamiferos.png",
+            "descripcion": "Animales que amamantan",
+            "Link": "https://youtu.be/i2pYf03Trnw?si=CQqjxLIOJ6OqunJf"
+        },
+        {
+            "id": "aves",
+            "titulo": "Aves",
+            "imagen": "image/card/aves.jpg",
+            "descripcion": "Animales con plumas",
+            "Link": "https://youtu.be/bLCqRd_fLio?si=44lpbJCLuaNCE63s"
+        },
+        {
+            "id": "reptiles",
+            "titulo": "Reptiles",
+            "imagen": "image/card/reptiles.jpg",
+            "descripcion": "Animales de sangre fría",
+            "Link": "https://youtu.be/FaYBCvAgE_E?si=LAOxh3vUies01Y3t"
+        },
+        {
+            "id": "anfibios",
+            "titulo": "Anfibios",
+            "imagen": "image/card/anfibios.webp",
+            "descripcion": "Viven en agua y tierra",
+            "Link": "https://youtu.be/8SfLE_ML7Tk?si=UYiGA9xgQaSaRMoc"
+        },
+        {
+            "id": "peces",
+            "titulo": "Peces",
+            "imagen": "image/card/peces.avif",
+            "descripcion": "Animales acuáticos",
+            "Link": "https://youtu.be/plIZUog5cvA?si=RRaleY8Nr4JFkwnz"
+        },
+        {
+            "id": "cadena_alimenticia",
+            "titulo": "Cadena alimenticia",
+            "imagen": "image/card/cadena.avif",
+            "descripcion": "Relación de alimentación",
+            "Link": "https://youtu.be/gMFO3YuJriA?si=HI_dgZCQaIYPRkYr"
+        },
+        {
+            "id": "biodiversidad",
+            "titulo": "Biodiversidad",
+            "imagen": "image/card/biodiversidad.jpg",
+            "descripcion": "Variedad de vida en el planeta",
+            "Link": "https://youtu.be/T_6pEjRsYeE?si=TLyoLW5sS2jbnnIt"
+        },
+        {
+            "id": "ciclo_agua",
+            "titulo": "Ciclo del agua",
+            "imagen": "image/card/agua.webp",
+            "descripcion": "Movimiento del agua en la Tierra",
+            "Link": "https://youtu.be/3QVj99UGk3Q?si=U651f-Ntzl93xGOr"
+        },
+        {
+            "id": "ciclo_nitrogeno",
+            "titulo": "Ciclo del nitrógeno",
+            "imagen": "image/card/nitrogeno.webp",
+            "descripcion": "Movimiento del nitrógeno en la naturaleza",
+            "Link": "https://youtu.be/xpH-8M7gVXY?si=zSf3CBWkMrG3f9aV"
+        },
+        {
+            "id": "ciclo_carbono",
+            "titulo": "Ciclo del carbono",
+            "imagen": "image/card/carbono.webp",
+            "descripcion": "Movimiento del carbono en la Tierra",
+            "Link": "https://www.youtube.com/watch?v=7C-tZh_RX1Q"
+        },
+        {
+            "id": "ciclo_fosforo",
+            "titulo": "Ciclo del fósforo",
+            "imagen": "image/card/fosforo.jpg",
+            "descripcion": "Movimiento del fósforo en la naturaleza",
+            "Link": "https://www.youtube.com/watch?v=RDBlt6vBLxI%22"
+
+        },
+     {
+      "id": "tipos_plantas",
+      "titulo": "Tipos de plantas",
+      "imagen": "image/card/tipos-de-plantas.jpg",
+      "descripcion": "Clasificación de las plantas según su forma, tamaño y características.",
+      "Link": "https://youtu.be/R7HGWDhxbIA?si=srt6V0a99A49CA-g"
+     },
+        {
+          "id": "arboles",
+          "titulo": "Árboles",
+          "imagen": "image/card/Arbol.jpg",
+          "descripcion": "Plantas grandes con tronco leñoso como el pino o el roble.",
+          "Link": "https://youtu.be/Qol3OMRwkac?si=A9wn-dvZYvTezMgo"
+        },
+        {
+          "id": "arbustos",
+          "titulo": "Arbustos",
+          "imagen": "image/card/Arbusto.jpg",
+          "descripcion": "Plantas medianas con varios tallos desde la base.",
+          "Link": "https://youtu.be/qgs3OIkdQkE?si=FNiA02-TAoYOz-H2"
+        },
+        {
+          "id": "hierbas",
+          "titulo": "Hierbas",
+          "imagen": "image/card/Hierba.jpg",
+          "descripcion": "Plantas pequeñas con tallos blandos.",
+          "Link": "https://youtu.be/qgs3OIkdQkE?si=FNiA02-TAoYOz-H2"
+        },
+        {
+          "id": "trepadoras",
+          "titulo": "Plantas Trepadora",
+          "imagen": "image/card/Trpeadora.jpg",
+          "descripcion": "Crecen apoyándose en otras superficies.",
+          "Link": "https://youtu.be/YhDo9gobsCw?si=MBwpmWGqGUePU92I"
+        },
+        {
+          "id": "acuaticas",
+          "titulo": "Plantas acuáticas",
+          "imagen": "image/card/eucalipto.jpg",
+          "descripcion": "Viven en ambientes acuáticos como lagos o ríos.",
+          "Link": "https://youtu.be/4YPAoWlPv8I?si=948OQCvdUJ5QLenC"
     },
     {
-        "id": "molecula",
-        "titulo": "La molecula",
-        "imagen": "image/biologia/celula.jpg",
-        "descripcion": "descripcion del proyecto"
+      "id": "plantas_medicinales",
+      "titulo": "Plantas medicinales",
+      "imagen": "image/card/medicinales.jpg",
+      "descripcion": "Plantas utilizadas para curar o aliviar enfermedades.",
+      "Link": "https://youtu.be/19rX5txSVYA?si=5NmbQQApCEvmHSrI"
+    },
+        {
+          "id": "manzanilla",
+          "titulo": "Manzanilla",
+          "imagen": "image/card/manzanilla.jpg",
+          "descripcion": "Ayuda a la digestión y relaja el cuerpo.",
+          "Link": "https://youtu.be/h2-mwWL6yAE?si=m3joFUqR6_euuEVL"
 
-    }
+        },
+        {
+          "id": "sabila",
+          "titulo": "Sábila",
+          "imagen": "image/card/sabila.jpg",
+          "descripcion": "Se usa para el cuidado de la piel.",
+            "Link": "https://youtu.be/pL9K173yvoc?si=-oKuiAGngui77K_w"
+        },
+        {
+          "id": "menta",
+          "titulo": "Menta",
+          "imagen": "image/card/menta.jpg",
+          "descripcion": "Alivia problemas respiratorios y digestivos.",
+          "Link": "https://youtu.be/SZ7q7uGwVN8?si=YX6O5CPBtDDnRLqM"
+        },
+        {
+          "id": "eucalipto",
+          "titulo": "Eucalipto",
+          "imagen": "image/card/eucalipto.jpg",
+          "descripcion": "Ayuda a descongestionar las vías respiratorias.",
+          "Link": "https://youtu.be/PvL-X1_h25s?si=U6OcOY5xA8gyf9sJ"
+        },
+        {
+          "id": "jengibre",
+          "titulo": "Jengibre",
+          "imagen": "image/card/jengibre.jpg",
+          "descripcion": "Tiene propiedades antiinflamatorias.",
+          "Link": "https://youtu.be/SMr8gb7XFDI?si=5vGv6TNNYm2iWLKO"
+        
+      
+    },
+        {
+      "id": "tipos_animales",
+      "titulo": "Tipos de animales",
+      "imagen": "image/card/tipos de animales.jpg",
+      "descripcion": "Clasificación de los animales.",
+      "Link": "https://youtu.be/q7DNqj0H6lA?si=epdZGSJFzMPQTFzj"
+        },
+        
+    {
+      "id": "vertebrados_invertebrados",
+      "titulo": "Animales vertebrados e invertebrados",
+      "imagen": "image/card/Vertebrados e invertebrados.jpg",
+      "descripcion": "Diferencia entre animales con y sin columna vertebral.",
+      "descripcion1": "Diferencia entre animales con y sin columna vertebral.",
+      "Link": "https://youtu.be/5hOBFMX_JPE?si=kgbGDKC8K6wmCgzZ"
+    },
+    {
+      "id": "organos_humanos",
+      "titulo": "Órganos del ser humano",
+      "imagen": "image/card/organos humanos.jpg",
+      "descripcion": "Órganos principales del cuerpo humano.",
+      "Link": "https://youtu.be/S3jJj68dBxw?si=J4Oz0CbWeipWnNNy"
+       },
+        {
+          "id": "corazon",
+          "titulo": "Corazón",
+          "imagen": "image/card/Corazon.jpg",
+          "descripcion": "Bombea la sangre por el cuerpo.",
+          "Link": ""
+        },
+        {
+          "id": "pulmones",
+          "titulo": "Pulmones",
+          "imagen": "image/card/pulmones.jpg",
+          "descripcion": "Permiten la respiración.",
+          "Link": ""
+        },
+        {
+          "id": "cerebro",
+          "titulo": "Cerebro",
+          "imagen": "image/card/cerebro.jpg",
+          "descripcion": "Controla todas las funciones del cuerpo.",
+          "Link": ""
+        },
+        {
+          "id": "estomago",
+          "titulo": "Estómago",
+          "imagen": "image/card/estomago.jpg",
+          "descripcion": "Digiere los alimentos.",
+          "Link": ""  
+        },
+        {
+          "id": "higado",
+          "titulo": "Hígado",
+          "imagen": "image/card/higado.jpg",
+          "descripcion": "Procesa nutrientes y desintoxica el cuerpo.",
+          "Link": ""
 
-    ],
+        }
+        
+      ],
     "quimica":[
     {
-        "id":"celula",
-        "titulo":"La celula",
-        "imagen": "image/quimica/molecula.jpg",
-        "descripcion": "descripcion del proyecto"
-    }
-    
+            "id": "elementos_quimicos",
+            "titulo": "Elementos químicos",
+            "imagen": "image/card/elementos.jpg",
+            "descripcion": "Partes de la materia",
+            "Link": "https://www.youtube.com/watch?v=xe1VYxUY7Ys"
+        },
+        {
+            "id": "tabla_periodica",
+            "titulo": "Tabla periódica",
+            "imagen": "image/card/tabla.jpg",
+            "descripcion": "Organización de los elementos químicos según sus propiedades",
+            "Link": "https://www.youtube.com/watch?v=qrb0apkL-iE"
+        },
+        {
+            "id": "enlace_quimico",
+            "titulo": "Enlace químico",
+            "imagen": "image/card/enlace.png",
+            "descripcion": "Fuerza que une a los átomos para formar compuestos",
+            "Link": "https://www.youtube.com/watch?v=xfvuQSJD2HM"
+        },
+        {
+            "id": "reaccion_quimica",
+            "titulo": "Reacción química",
+            "imagen": "image/card/reaccion.jpg",
+            "descripcion": "Proceso en el que unas sustancias se transforman en otras",
+            "Link": "https://www.youtube.com/watch?v=7C-tZh_RX1Q"
+        },
+        {
+            "id": "molecula",
+            "titulo": "La molécula",
+            "imagen": "image/card/molecula.jpg",
+            "descripcion": "Unión de átomos",
+            "Link": "https://www.youtube.com/watch?v=_SD92D2Drfs"
+        },
+        {
+            "id": "atomo",
+            "titulo": "El átomo",
+            "imagen": "image/card/atomo.jpg",
+            "descripcion": "Unidad básica de la materia",
+            "Link": "https://www.youtube.com/watch?v=oPrXErLylxA"
+        },
+      
+        {
+            "id": "estados_materia",
+            "titulo": "Estados de la materia",
+            "imagen": "image/card/estados.png",
+            "descripcion": "Sólido, líquido y gaseoso",
+            "Link": "https://www.youtube.com/watch?v=cux9sSjtsgw"
+        },
+        {
+            "id": "mezclas",
+            "titulo": "Mezclas",
+            "imagen": "image/card/mesclas.jpg",
+            "descripcion": "Combinación de sustancias",
+            "Link": "https://www.youtube.com/watch?v=UQO88zoMC9Q"
+        },
+        {
+            "id": "sustancias_puras",
+            "titulo": "Sustancias puras",
+            "imagen": "image/card/sustancias.png",
+            "descripcion": "Composición fija",
+            "Link": "https://www.youtube.com/watch?v=8VQtgvyWp08"
+        },
+        {
+            "id": "soluciones",
+            "titulo": "Soluciones",
+            "imagen": "image/card/soluciones.png",
+            "descripcion": "Mezclas homogéneas",
+            "Link": "https://www.youtube.com/watch?v=9owEfiDh4DI"
+        },
+        {
+            "id": "acidos",
+            "titulo": "Ácidos",
+            "imagen": "image/card/acidos.jpg",
+            "descripcion": "Sustancias con pH bajo",
+            "Link": "https://www.youtube.com/watch?v=aqyuKu8QBsk"
+        },
+        {
+            "id": "bases",
+            "titulo": "Bases",
+            "imagen": "image/card/baces.jpg",
+            "descripcion": "Sustancias con pH alto",
+            "Link": "https://www.youtube.com/watch?v=UBuXss6L9as"
+        },
+        {
+            "id": "ph",
+            "titulo": "Escala de pH",
+            "imagen": "image/card/ph.avif",
+            "descripcion": "Mide acidez o alcalinidad",
+            "Link": "https://www.youtube.com/watch?v=5CdL1UVrXqc"
+        },
+        {
+            "id": "energia_quimica",
+            "titulo": "Energía química",
+            "imagen": "image/card/energia.jpg",
+            "descripcion": "Energía en enlaces químicos",
+            "Link": ""
+        },
+        {
+            "id": "ley_conservacion",
+            "titulo": "Ley de conservación",
+            "imagen": "image/card/conservacion.jpg",
+            "descripcion": "La materia no se crea ni se destruye",
+            "Link": "https://www.youtube.com/watch?v=zyIBSQvTER4"
+        },
+        {
+            "id": "cambios_fisicos",
+            "titulo": "Cambios físicos",
+            "imagen": "image/card/fisicos.jpg",
+            "descripcion": "No alteran la sustancia",
+            "Link": "https://www.youtube.com/watch?v=vvxK8MehrnA"
+        },
+        {
+            "id": "cambios_quimicos",
+            "titulo": "Cambios químicos",
+            "imagen": "image/card/quimicos.jpeg",
+            "descripcion": "Forman nuevas sustancias",
+            "Link": "https://www.youtube.com/watch?v=H4QDsvBoCjc"
+        },
+        {
+            "id": "densidad",
+            "titulo": "Densidad",
+            "imagen": "image/card/dencidad.jpg",
+            "descripcion": "Relación masa-volumen",
+            "Link": "https://www.youtube.com/watch?v=RsO-sSyucCc"
+        },
+        {
+            "id": "temperatura",
+            "titulo": "Temperatura",
+            "imagen": "image/card/temperatura.webp",
+            "descripcion": "Medida de calor",
+            "Link": "https://www.youtube.com/watch?v=En0lWf12qR4"
+        },
+        {
+            "id": "calor",
+            "titulo": "Calor",
+            "imagen": "image/card/calor.jpeg",
+            "descripcion": "Transferencia de energía",
+            "Link": "https://www.youtube.com/watch?v=St8tvRdvghk"
+        },
+        {
+            "id": "gas",
+            "titulo": "Gases",
+            "imagen": "image/card/gases.webp",
+            "descripcion": "Estado de la materia",
+            "Link": "https://www.youtube.com/watch?v=ducBHqyNjNg"
+        },
+        {
+            "id": "presion",
+            "titulo": "Presión",
+            "imagen": "image/card/presion.png",
+            "descripcion": "Fuerza sobre superficie",
+            "Link": "https://www.youtube.com/watch?v=ZlZuqOc64uA"
+        },
+        {
+            "id": "volumen",
+            "titulo": "Volumen",
+            "imagen": "image/card/volumen.jpg",
+            "descripcion": "Espacio ocupado",
+            "Link": "https://www.youtube.com/watch?v=Aqih2V4WLp4"
+        },
+        {
+            "id": "masa",
+            "titulo": "Masa",
+            "imagen": "image/card/masa.jpeg",
+            "descripcion": "Cantidad de materia",
+            "Link": "https://www.youtube.com/watch?v=Jp1NinV9IKQ"
+        }
 
 
-    ] 
+    ]
+  
+
+
 
 }

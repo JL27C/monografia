@@ -1,0 +1,162 @@
+
+  {
+    "biologia": {
+      "titulo": "Asistente de Biología",
+      "botones": [
+       {
+   "texto": "Tejidos Animales y Vegetales",
+  "respuesta": "Los tejidos son grupos de células similares que realizan una misma función. En plantas: tejido meristemático (crecimiento), parénquima (almacenamiento y fotosíntesis), colénquima y esclerenquima (soporte). En animales: tejido epitelial (cubrimiento y protección), conjuntivo (soporte y transporte), muscular (movimiento) y nervioso (transmisión de impulsos). Los tejidos forman órganos.",
+  "imagen": "./image/chatbot/tegidosVA.jpeg",
+  "Link": "https://www.youtube.com/watch?v=9n8sXo2j5h0"
+},
+   
+        {
+          "texto": "Estados de la Materia",
+          "respuesta": "Los estados de la materia son: gas, líquido y soído. Los gases son el estado mas comun, los líquidos son los que se mueven y los soídos son los que no se mueven.",
+          "imagen": "image/chatbot/estadosM.jpg"
+        },
+        {
+          "texto": "ADN y Genética",
+          "respuesta": "El ADN contiene la información genética. Se encuentra en el núcleo de las células eucariotas y determina las características de los seres vivos.",
+          "imagen": "image/chatbot/adn.jpg"
+        },
+        {
+          "texto": "Mitosis y Meiosis",
+          "respuesta": "La mitosis es la división celular para el crecimiento. La meiosis es la división que produce gametos (óvulos y espermatozoides).",
+          "imagen": "image/chatbot/m&m.jpg"
+        },
+        {
+          "texto": "Ecosistemas",
+          "respuesta": "Un ecosistema es la interacción entre los seres vivos y su entorno. Incluye productores, consumidores y descomponedores.",
+          "imagen": "image/chatbot/ecosistema.jpg"
+        },
+        {
+        "texto": "La Célula",
+        "respuesta": "La célula es la unidad básica de la vida. Existen células procariotas (sin núcleo definido, como bacterias) y eucariotas (con núcleo y orgánulos, como las de plantas y animales). Las células vegetales tienen pared celular y cloroplastos, mientras que las animales no.",
+        "imagen": "image/chatbot/celula.jpg"
+      },
+      {
+        "texto": "Fotosíntesis",
+        "respuesta": "La fotosíntesis es el proceso por el cual las plantas, algas y algunas bacterias convierten la luz solar, agua y dióxido de carbono (CO₂) en glucosa y oxígeno. Ocurre en los cloroplastos y es fundamental para la vida en la Tierra, ya que produce alimento y oxígeno.",
+        "imagen": "image/chatbot/fotosintesis.jpeg"
+      },
+      {
+        "texto": "Plantas Medicinales",
+        "respuesta": "Las plantas medicinales son aquellas que tienen compuestos activos con propiedades curativas. En Ecuador se usan comúnmente: guayusa (energizante y contra gripes), boldo (para el hígado), manzanilla (digestiva y antiinflamatoria), llantén (para heridas y tos) y ortiga (antiinflamatoria y diurética). Su uso forma parte de la medicina tradicional ancestral.",
+        "imagen": "image/chatbot/plantasM.webp"
+      },
+      {
+        "texto": "Órganos Humanos",
+        "respuesta": "Los órganos son estructuras formadas por tejidos que realizan funciones específicas. Ejemplos principales: corazón (bombea sangre), pulmones (intercambio de gases), cerebro (controla el cuerpo y el pensamiento), hígado (metabolismo y desintoxicación), riñones (filtrado de la sangre) y estómago (digestión).",
+        "imagen": "image/chatbot/organosH.webp"
+      },
+      {
+        "texto": "Tipos de Plantas",
+        "respuesta": "Las plantas se clasifican según su estructura: briofitas (musgos, sin vasos conductores), pteridofitas (helechos, con vasos pero sin semillas), gimnospermas (coníferas, semillas desnudas) y angiospermas (plantas con flores y frutos, las más abundantes). Las angiospermas se dividen en monocotiledóneas y dicotiledóneas.",
+        "imagen": "image/chatbot/plantasTipo.jpg"
+      },
+      {
+        "texto": "Animales Invertebrados",
+        "respuesta": "Los invertebrados son animales sin columna vertebral. Los principales grupos son: poríferos (esponjas), cnidarios (medusas, corales), platelmintos (gusanos planos), nematodos (gusanos redondos), anélidos (lombrices), moluscos (caracoles, pulpos), artrópodos (insectos, arañas, crustáceos) y equinodermos (estrellas de mar).",
+        "imagen": "image/chatbot/invertebrados.jpg"
+      },
+      {
+        "texto": "Animales Vertebrados",
+        "respuesta": "Los vertebrados tienen columna vertebral y cráneo. Se clasifican en: peces (respiran con branquias), anfibios (vida acuática y terrestre, como ranas), reptiles (escamas, huevos con cáscara), aves (plumas, pico y huevos con cáscara) y mamíferos (pelo, glándulas mamarias y mayoría vivíparos).",
+        "imagen": "image/chatbot/vertebrados.jpg"
+      },
+      {
+        "texto": "Clasificación de Seres Vivos",
+        "respuesta": "Los seres vivos se clasifican en dominios y reinos. Los principales reinos son: Monera (bacterias), Protista (protozoos y algas unicelulares), Fungi (hongos), Plantae (plantas) y Animalia (animales). Esta clasificación se basa en características como tipo de célula, nutrición y reproducción.",
+        "imagen": "image/chatbot/clasificacionV.jpg"
+      },
+      {
+        "texto": "Sistemas del Cuerpo Humano",
+        "respuesta": "Los principales sistemas son: digestivo (procesa alimentos), respiratorio (intercambia gases), circulatorio (transporta sangre), excretor (elimina desechos), nervioso (control y coordinación), endocrino (hormonas), inmunitario (defensas), muscular y esquelético (movimiento y soporte), y reproductor.",
+        "imagen": "image/chatbot/sistemasH.jpg"
+      }
+      ]
+    },
+
+    "quimica": {
+      "titulo": "Asistente de Química",
+      "botones": [
+        {
+      "texto": "El Átomo",
+      "respuesta": "El átomo es la unidad más pequeña de la materia que conserva las propiedades de un elemento. Está formado por un núcleo (protones con carga positiva y neutrones sin carga) y electrones (con carga negativa) en su alrededor. El número atómico (Z) indica la cantidad de protones y define el elemento.",
+      "imagen": "./image/chatbot/atomo.jpg"
+    },
+    {
+      "texto": "Moleculas y Compuestos",
+      "respuesta": "Una molécula es un grupo de átomos unidos por enlaces químicos. Un compuesto es una sustancia formada por la combinación de dos o más elementos en proporciones fijas. Ejemplo: el agua (H₂O) es un compuesto formado por dos átomos de hidrógeno y uno de oxígeno.",
+      "imagen": "./image/chatbot/m&c.jpg"
+    },
+    {
+      "texto": "Tabla Periódica",
+      "respuesta": "La tabla periódica organiza los elementos químicos en orden creciente de número atómico. Se divide en periodos (filas) y grupos (columnas). Los metales están a la izquierda, los no metales a la derecha y los metaloides en la zona intermedia. Permite predecir propiedades como valencia, radio atómico y reactividad.",
+      "imagen": "./image/chatbot/tablaP.jpg"
+    },
+    {
+      "texto": "Enlaces Químicos",
+      "respuesta": "Los enlaces químicos son las fuerzas que unen los átomos para formar compuestos. Tipos principales: iónico (transferencia de electrones entre metal y no metal), covalente (compartición de electrones, común entre no metales) y metálico (electrones deslocalizados en metales). Determinan las propiedades de las sustancias.",
+      "imagen": "./image/chatbot/enlacesQ.webp"
+    },
+    {
+      "texto": "Reacciones Químicas",
+      "respuesta": "Una reacción química es un proceso en el que unas sustancias (reactivos) se transforman en otras diferentes (productos). Se representa con una ecuación química. Se cumple la ley de conservación de la masa (Lavoisier). Tipos comunes: síntesis, descomposición, desplazamiento simple y doble.",
+      "imagen": "./image/chatbot/reaccionesQ.jpg"
+    },
+    {
+      "texto": "Ácidos y Bases",
+      "respuesta": "Los ácidos son sustancias que liberan iones H⁺ (protones) en solución acuosa (pH < 7). Las bases liberan iones OH⁻ (pH > 7). Se miden con la escala de pH (0 a 14). Ejemplos: ácido clorhídrico (HCl), hidróxido de sodio (NaOH). Las reacciones entre ácidos y bases producen sal y agua (neutralización).",
+      "imagen": "./image/chatbot/a&b.jpg"
+    },
+    {
+      "texto": "Estados de la Materia",
+      "respuesta": "La materia puede presentarse en tres estados principales: sólido (forma y volumen fijos), líquido (volumen fijo, forma variable) y gaseoso (ni forma ni volumen fijos). Los cambios de estado se llaman fusión, vaporización, condensación, solidificación y sublimación. Estos cambios dependen de la temperatura y presión.",
+      "imagen": "./image/chatbot/saludo2.jpeg"
+    },
+    {
+      "texto": "Propiedades de la Materia",
+      "respuesta": "Las propiedades de la materia se clasifican en físicas (color, densidad, punto de fusión, solubilidad) y químicas (inflamabilidad, reactividad). También se dividen en intensivas (no dependen de la cantidad, como densidad) y extensivas (dependen de la cantidad, como masa).",
+      "imagen": "./image/chatbot/propiedadesM.jpg"
+    },
+    {
+      "texto": "Mezclas y Soluciones",
+      "respuesta": "Una mezcla es la combinación de dos o más sustancias. Puede ser homogénea (solución, composición uniforme) o heterogénea (suspensión o coloide). En una solución, el soluto se disuelve en el solvente. Ejemplo: agua con sal (solución) o agua con arena (mezcla heterogénea).",
+      "imagen": "./image/chatbot/s&s.jpeg"
+    },
+    {
+      "texto": "Leyes de los Gases",
+      "respuesta": "Las leyes de los gases describen el comportamiento de los gases. Las principales son: Ley de Boyle (a temperatura constante, presión y volumen son inversamente proporcionales), Ley de Charles (a presión constante, volumen y temperatura son directamente proporcionales) y Ley de Gay-Lussac (a volumen constante, presión y temperatura son directamente proporcionales).",
+      "imagen": "./image/chatbot/leyesGas.jpg"
+    },
+    {
+      "texto": "Modelo Atómico",
+      "respuesta": "El modelo atómico ha evolucionado con el tiempo. Los más importantes son: Dalton (átomo indivisible), Thomson (modelo del pudín de pasas), Rutherford (núcleo pequeño y denso) y Bohr (electrones en órbitas definidas). Actualmente se usa el modelo mecanocuántico, donde los electrones se encuentran en orbitales.",
+      "imagen": "./image/chatbot/modeloAtomico.webp"
+    },
+    {
+      "texto": "Nomenclatura Química",
+      "respuesta": "La nomenclatura química es el sistema para nombrar los compuestos. Para compuestos binarios: metal + no metal se usa el sufijo -uro (ej. cloruro de sodio). Para óxidos: se usa el prefijo mono, di, tri según la cantidad de oxígeno. Los ácidos se nombran según el anión (hidro-...-ico o ...-oso).",
+      "imagen": "./image/chatbot/nomenclaturaQ.png"
+    },
+    {
+      "texto": "Estequiometría",
+      "respuesta": "La estequiometría es el cálculo de las cantidades de reactivos y productos en una reacción química. Se basa en las proporciones de la ecuación balanceada (coeficientes). Permite calcular masas, moles y volúmenes de sustancias que participan en una reacción.",
+      "imagen": "./image/chatbot/estequiometria.jpg"
+    },
+    {
+      "texto": "Química Orgánica",
+      "respuesta": "La química orgánica estudia los compuestos que contienen carbono. Los hidrocarburos son los más simples (alcanos, alquenos y alquinos). También incluye alcoholes, ácidos carboxílicos, ésteres y proteínas. El carbono puede formar cadenas largas y anillos, lo que explica la gran variedad de compuestos orgánicos.",
+      "imagen": "./image/chatbot/quimicaO.jpg"
+    },
+    {
+      "texto": "Contaminación Química",
+      "respuesta": "La contaminación química es la introducción de sustancias nocivas al medio ambiente. Ejemplos: plásticos, pesticidas, metales pesados (mercurio, plomo) y gases como CO₂ y SO₂. Causa problemas como lluvia ácida, eutrofización de ríos y daño a la salud humana. La reducción de contaminantes es clave para el desarrollo sostenible.",
+      "imagen": "./image/chatbot/contaminantesQ.png"
+    }
+      ]
+    }
+    
+  }

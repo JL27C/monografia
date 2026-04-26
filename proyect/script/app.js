@@ -76,6 +76,11 @@ function mostrarModal(item) {
             <h4 class="mt-3">Detalles adicionales</h4>
             <p>${item.detalles}</p>
         ` : ''}
+        <!-- Enlaces -->
+          ${item.Link ? `
+            <div class="mt-3">
+            <a href="${item.Link}" target="_blank" class="btn btn-video">Ver video</a>
+          ` : ''}
         
         ${item.conceptos ? `
             <h4>Conceptos clave</h4>

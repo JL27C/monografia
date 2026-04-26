@@ -154,12 +154,14 @@ button{
     display:flex;
     justify-content:center;
     margin-bottom:1rem;
+
 }
  
 .chat-image img{
-    width:350px;
-    height:350px;
-    object-fit:cover;
+    width:100%;
+    max-width: 450px;
+    height: auto;
+    object-fit:contain;
     border-radius:10px;
 }
 
@@ -214,5 +216,20 @@ button{
 
 .btn-group-vertical .btn{
     background: var(--secundary);
+    color: white;
+}
+
+.btn-video{
+    background: var(--secundary);
+    color: black;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-video:hover{
+    background: var(--primary);
     color: white;
 }
