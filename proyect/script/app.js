@@ -71,6 +71,11 @@ function mostrarModal(item) {
         
         <h4 class="mt-4">Descripción</h4>
         <p>${item.descripcion}</p>
+
+// Aqui se pone mas si necesito mas descripciones
+
+        <h4 class="mt-4">Descripciónn 1</h4>
+        <p>${item.descripcionn1}</p>
  
         ${item.detalles ? `
             <h4 class="mt-3">Detalles adicionales</h4>
